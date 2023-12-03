@@ -29,17 +29,11 @@ public class Product {
     public String getName() {
         return name;
     }
-
     public double getCost() {
         return cost;
     }
-
     @Override
     public String toString() {
-
         return this.name.toString();
-
-
-
     }
 }

@@ -1,6 +1,6 @@
 package P07InterfacesAndAbstractionLab.P06Ferrari;
 
-public class Ferrari implements Car{
+public class Ferrari implements Car {
 
     private String driverName;
     private String model;
@@ -22,6 +22,6 @@ public class Ferrari implements Car{
 
     @Override
     public String toString() {
-        return String.format("%s/%s/%s/%s",this.model,brakes(),gas(),this.driverName);
+        return String.format("%s/%s/%s/%s", this.model, brakes(), gas(), this.driverName);
     }
 }

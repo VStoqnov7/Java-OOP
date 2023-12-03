@@ -8,12 +8,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         String[] colors = scanner.nextLine().split("\\s+");
         int n = Integer.parseInt(scanner.nextLine());
 
         List<Light> trafficLight = new ArrayList<>();
-
 
         for (String color : colors) {
             Light light = new Light(Color.valueOf(color));
@@ -24,14 +22,8 @@ public class Main {
             for (Light light : trafficLight) {
                 light.changeColor();
                 System.out.print(light.getColor() + " ");
-
             }
             System.out.println();
-
         }
-
-
-
-
     }
 }

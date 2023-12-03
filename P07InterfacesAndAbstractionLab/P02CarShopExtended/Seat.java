@@ -8,7 +8,6 @@ public class Seat extends CarImpl implements Sellable{
         super(model, color, horsePower, countryProduced);
         this.price = price;
     }
-
     @Override
     public Double getPrice() {
         return this.price;

@@ -11,7 +11,6 @@ public class Main {
         double width = Double.parseDouble(scanner.nextLine());
         double height = Double.parseDouble(scanner.nextLine());
 
-
         Box box = new Box(length,width,height);
 
         System.out.printf("Surface Area - %.2f%n",box.calculateSurfaceArea());

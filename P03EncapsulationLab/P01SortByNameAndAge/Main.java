@@ -35,7 +35,6 @@ public class Main {
 //            return results;
 //        }).forEach(System.out::println);
 
-
         people.stream().sorted(Comparator.comparing(Person::getFirstName).thenComparingInt(Person::getAge)).forEach(System.out::println);
 
     }

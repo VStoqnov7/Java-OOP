@@ -1,7 +1,6 @@
 package P07InterfacesAndAbstractionLab.P02CarShopExtended;
 
 public class Audi extends CarImpl implements Rentable{
-
     private Integer minRentDay;
     private Double pricePerDay;
 
@@ -10,7 +9,6 @@ public class Audi extends CarImpl implements Rentable{
         this.minRentDay = minRentDay;
         this.pricePerDay = pricePerDay;
     }
-
 
     @Override
     public Integer getMinRentDay() {

@@ -8,8 +8,6 @@ public class Person {
     private String lastName;
     private int age;
     private double salary;
-
-
     public Person(String firstName, String lastName, int age,double salary) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -44,14 +42,10 @@ public class Person {
         }else {
             this.setSalary(this.getSalary() + (this.getSalary() * percentage / 100));
         }
-
     }
-
     @Override
     public String toString() {
         DecimalFormat df = new DecimalFormat("####.###");
-
-
         return String.format("%s %s gets %s leva",this.firstName,this.lastName,df.format(this.salary));
     }
 }

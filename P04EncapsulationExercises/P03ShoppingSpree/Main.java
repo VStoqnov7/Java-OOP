@@ -28,7 +28,6 @@ public class Main {
             productsList.add(product);
         }
 
-
         String command = scanner.nextLine();
 
         while (!command.equals("END")) {
@@ -54,12 +53,9 @@ public class Main {
                     break;
                 }
             }
-
             if (currentPerson != null && currentProduct != null) {
                 currentPerson.buyProduct(currentProduct);
             }
-
-
             command = scanner.nextLine();
         }
 

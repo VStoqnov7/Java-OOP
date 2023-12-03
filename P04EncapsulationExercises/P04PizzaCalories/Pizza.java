@@ -13,7 +13,6 @@ public class Pizza {
         this.setToppings(numberOfToppings);
 
     }
-
     private void setName(String name) {
         if (name.trim().length() >= 1 && name.trim().length() <= 15){
             this.name = name;

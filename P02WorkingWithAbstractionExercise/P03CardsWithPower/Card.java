@@ -8,7 +8,6 @@ public class Card {
         this.rank = power;
         this.suit = suit;
     }
-
     public int getPower(){
         return rank.getPowerRank() + suit.getSuitPower();
     }

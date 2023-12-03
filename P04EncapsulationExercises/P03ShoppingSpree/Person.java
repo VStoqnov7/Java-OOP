@@ -8,7 +8,6 @@ public class Person {
     private double money;
     private List<Product> products;
 
-
     public Person(String name, double money) {
         this.setName(name);
         this.setMoney(money);

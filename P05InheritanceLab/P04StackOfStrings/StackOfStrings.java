@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StackOfStrings {
-
     private List<String> data;
 
     public StackOfStrings() {

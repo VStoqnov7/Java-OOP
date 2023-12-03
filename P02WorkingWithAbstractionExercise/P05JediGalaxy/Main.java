@@ -48,7 +48,6 @@ public class Main {
             if (rowPeter < matrix.length && colPeter >= 0 && colPeter < matrix[0].length) {
                 sum += matrix[rowPeter][colPeter];
             }
-
             colPeter++;
             rowPeter--;
         }

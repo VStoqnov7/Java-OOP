@@ -1,7 +1,6 @@
 package P06InheritanceExercises.P01Person;
 
 public class Person {
-
     private String name;
     private int age;
 

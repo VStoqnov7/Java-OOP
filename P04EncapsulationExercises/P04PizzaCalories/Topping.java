@@ -5,7 +5,6 @@ public class Topping {
     private String toppingType;
     private double weight;
 
-
     public Topping(String toppingType, double weight) {
         this.setToppingType(toppingType);
         this.setWeight(weight);
@@ -49,8 +48,6 @@ public class Topping {
                 toppingCoefficient = 0.9;
                 break;
         }
-
-
         return 2 * weight * toppingCoefficient;
     }
 }
