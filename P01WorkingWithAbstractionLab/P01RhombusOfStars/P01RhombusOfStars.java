@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class P01RhombusOfStars {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-
         int n = Integer.parseInt(scanner.nextLine());
 
         for (int i = 1; i <= n; i++) {
@@ -20,7 +18,6 @@ public class P01RhombusOfStars {
             System.out.println();
         }
     }
-
     private static void printSpace(int n, String s) {
         for (int j = 0; j < n; j++) {
             System.out.print(s);

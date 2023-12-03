@@ -1,6 +1,6 @@
 package P07InterfacesAndAbstractionLab.P03SayHello;
 
-public class Chinese implements Person{
+public class Chinese implements Person {
 
     private String name;
 

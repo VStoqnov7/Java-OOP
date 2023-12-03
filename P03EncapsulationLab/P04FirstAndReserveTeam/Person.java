@@ -78,8 +78,6 @@ public class Person {
     @Override
     public String toString() {
         DecimalFormat df = new DecimalFormat("####.###");
-
-
         return String.format("%s %s gets %s leva",this.firstName,this.lastName,df.format(this.salary));
     }
 }

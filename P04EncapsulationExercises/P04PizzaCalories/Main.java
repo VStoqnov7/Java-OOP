@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         String[] pizzaData = scanner.nextLine().split("\\s+");
 
         String namePizza = pizzaData[1];
@@ -34,14 +33,6 @@ public class Main {
 
             command = scanner.nextLine();
         }
-
-
         System.out.printf("%s - %.2f",pizza.getName(), pizza.getOverallCalories());
-
-
-
-
-
-
     }
 }

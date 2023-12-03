@@ -49,8 +49,6 @@ public class Dough {
 
 
     }
-
-
     public double calculateCalories(){
 
         double flourTypeCoefficient = 0;

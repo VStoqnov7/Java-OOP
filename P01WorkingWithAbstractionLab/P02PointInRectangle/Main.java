@@ -6,8 +6,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-
         int[] inputCoordinates = getInputCoordinates(scanner);
 
         Point bottomLeft = new Point(inputCoordinates[0], inputCoordinates[1]);
@@ -24,9 +22,7 @@ public class Main {
             boolean contains = rectangle.contains(newPoint);
             System.out.println(contains);
         }
-
     }
-
     private static int[] getInputCoordinates(Scanner scan) {
         return Arrays.stream(scan.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)

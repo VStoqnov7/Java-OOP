@@ -23,12 +23,7 @@ public class Main {
 
             team.addPlayer(person);
         }
-
-
         System.out.printf("First team have %d players%n",team.getFirstTeam().size());
         System.out.printf("Reserve team have %d players",team.getReserveTeam().size());
-
-
-
     }
 }

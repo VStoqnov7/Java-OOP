@@ -1,8 +1,6 @@
 package P02WorkingWithAbstractionExercise.P04TrafficLights;
 
 public class Light {
-
-
     private Color color;
 
 
