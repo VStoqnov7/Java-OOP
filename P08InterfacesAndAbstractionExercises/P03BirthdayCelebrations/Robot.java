@@ -14,7 +14,7 @@ public class Robot implements Identifiable{
     public String getId() {
         return this.id;
     }
-    
+
     public String getModel() {
         return this.model;
     }
