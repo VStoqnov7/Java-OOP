@@ -23,5 +23,4 @@ public class Main {
             System.out.println(methods1[0].getReturnType().getSimpleName());
         }
     }
-
 }
