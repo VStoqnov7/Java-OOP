@@ -43,7 +43,7 @@ public abstract class Vehicle {
     public double getFuelQuantity() {
         return fuelQuantity;
     }
-    
+
     @Override
     public String toString() {
 
