@@ -9,7 +9,6 @@ public class Main {
 
         Class clazz = Reflection.class;
 
-
         System.out.println(clazz.toString());
         System.out.println(clazz.getSuperclass());
 
@@ -19,7 +18,6 @@ public class Main {
 
         Reflection reflection = new Reflection();
         System.out.println(reflection);
-
 
         //class java.lang.Object
         //interface java.io.Serializable
