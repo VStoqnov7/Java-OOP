@@ -1,8 +1,6 @@
 package P9PolymorphismLab.P01MathOperation;
 
 import java.io.IOException;
-
-
 public class Main {
     public static void main(String[] args) throws IOException {
         MathOperation math = new MathOperation();
