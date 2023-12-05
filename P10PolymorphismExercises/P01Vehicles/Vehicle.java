@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public abstract class Vehicle {
     protected double fuelQuantity;                //количество
     protected double fuelConsumption;            //Консумация
-    
+
     protected Vehicle(double fuelQuantity, double fuelConsumption) {
         this.fuelQuantity = fuelQuantity;
         this.fuelConsumption = fuelConsumption;
