@@ -1,4 +1,4 @@
-package P9PolymorphismLab.P04WildFarm;
+package P09PolymorphismLab.P04WildFarm;
 
 public class Meat extends  Food{
     public Meat(int quantity) {

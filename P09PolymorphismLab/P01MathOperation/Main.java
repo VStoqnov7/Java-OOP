@@ -1,4 +1,4 @@
-package P9PolymorphismLab.P01MathOperation;
+package P09PolymorphismLab.P01MathOperation;
 
 import java.io.IOException;
 public class Main {

@@ -1,4 +1,4 @@
-package P9PolymorphismLab.P03Animals;
+package P09PolymorphismLab.P03Animals;
 
 public class Cat extends Animal {
     public Cat(String name, String favoriteFood) {

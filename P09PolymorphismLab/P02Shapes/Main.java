@@ -1,4 +1,4 @@
-package P9PolymorphismLab.P02Shapes;
+package P09PolymorphismLab.P02Shapes;
 
 public class Main {
     public static void main(String[] args) {

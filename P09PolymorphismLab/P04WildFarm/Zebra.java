@@ -1,4 +1,4 @@
-package P9PolymorphismLab.P04WildFarm;
+package P09PolymorphismLab.P04WildFarm;
 
 public class Zebra extends Mammal{
     public Zebra(String animalName, String animalType, double animalWeight, String livingRegion) {
