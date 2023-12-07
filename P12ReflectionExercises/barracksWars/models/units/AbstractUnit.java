@@ -42,7 +42,6 @@ public abstract class AbstractUnit implements Unit {
         if (attackDamage <= 0) {
             throw new IllegalArgumentException("Attack damage should be positive.");
         }
-        
         this.attackDamage = attackDamage;
     }    
 }

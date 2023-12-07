@@ -47,8 +47,5 @@ public class UnitRepository implements Repository {
 			throw new IllegalArgumentException("No such units in repository.");
 		}
 		this.amountOfUnits.put(unitType, countPeople - 1);
-
-
-
 	}
 }
