@@ -21,7 +21,7 @@ public class Aquarium {
 
     private void setName(String name) {
         if (name == null || name.trim().isEmpty()){
-            throw new NullPointerException("Invalid aquarium name!");
+            throw new NullPointerException("Invalid P15Exams.P14Exam.P15Exams.P14Exam.aquarium name!");
         }
         this.name = name;
     }
@@ -32,7 +32,7 @@ public class Aquarium {
 
     private void setCapacity(int capacity) {
         if (capacity < 0) {
-            throw new IllegalArgumentException("Invalid aquarium capacity!");
+            throw new IllegalArgumentException("Invalid P15Exams.P14Exam.P15Exams.P14Exam.aquarium capacity!");
         }
         this.capacity = capacity;
     }
