@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 
 public class InstockTest {
 
-
     private ProductStock stock;
 
     @Before
@@ -31,7 +30,6 @@ public class InstockTest {
         this.stock.add(product3);
     }
 
-
     @Test
     public void testContainsAndGetCount(){
         Product product1 = new Product("water",1.20,2);
@@ -40,14 +38,12 @@ public class InstockTest {
         Assert.assertTrue(this.stock.contains(product1));
         Assert.assertEquals("water",product1.getLabel());
     }
-
     @Test
     public void testGetCount(){
         Assert.assertEquals(0,this.stock.getCount());
         fill();
         Assert.assertEquals(3,this.stock.getCount());
     }
-
 
     @Test
     public void testFind(){
@@ -65,7 +61,6 @@ public class InstockTest {
         this.stock.find(4);
 
     }
-
     @Test(expected = IndexOutOfBoundsException.class)
     public void testFindThrowExceptionNegativeNumber(){
         fill();
@@ -88,8 +83,6 @@ public class InstockTest {
         fill();
         this.stock.changeQuantity("watermelon",100);
     }
-
-
 
     @Test
     public void testFindByLabel(){
@@ -164,8 +157,6 @@ public class InstockTest {
         Assert.assertEquals(0,returnedProducts.size());
     }
 
-
-
     @Test
     public void testFindAllInPriceRange(){
         fill();
@@ -180,7 +171,6 @@ public class InstockTest {
         Assert.assertEquals(2, count);
 
     }
-
 
     @Test
     public void testFindAllInPriceRangeCorrectOrder(){
@@ -200,7 +190,6 @@ public class InstockTest {
 
         Assert.assertFalse(iterable.iterator().hasNext());
     }
-
 
     @Test
     public void testFindAllByPriceCorrectProducts(){
@@ -242,7 +231,6 @@ public class InstockTest {
 
         Assert.assertEquals(1,returnedProducts.size());
         Assert.assertEquals("lemon",returnedProducts.get(0).getLabel());
-
     }
 
     @Test
@@ -267,13 +255,10 @@ public class InstockTest {
         Assert.assertEquals("water",returnedProducts.get(0).getLabel());
         Assert.assertEquals("lemon",returnedProducts.get(1).getLabel());
         Assert.assertEquals("bread",returnedProducts.get(2).getLabel());
-
-
     }
 
     @Test
     public void testFindFirstMostExpensiveProducts(){
-
         fill();
 
         Iterable<Product> iterable = this.stock.findFirstMostExpensiveProducts(2);
@@ -282,7 +267,6 @@ public class InstockTest {
 
         Assert.assertEquals("bread",returnedProducts.get(0).getLabel());
         Assert.assertEquals("lemon",returnedProducts.get(1).getLabel());
-
     }
 
 
@@ -290,13 +274,10 @@ public class InstockTest {
     public void findFirstMostExpensiveProductsThrowException(){
 
         stock.findFirstMostExpensiveProducts(6);
-
     }
 
     @Test
     public void testGetProducts() {
-
-
         fill();
 
         Product product4 = new Product("cheese",1.00,3);
@@ -319,10 +300,6 @@ public class InstockTest {
         Assert.assertEquals("tomato",newList.get(0).getLabel());
         Assert.assertEquals("cherry",newList.get(1).getLabel());
         Assert.assertEquals("carrot",newList.get(2).getLabel());
-
-
-
-
     }
 }
 
